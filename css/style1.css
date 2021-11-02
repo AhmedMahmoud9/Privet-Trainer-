@@ -1,0 +1,187 @@
+/************variables**********/
+/**********navbar************/
+.logoImg {
+  border: 2px solid yellow;
+  border-radius: 50%;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  border-top: 3px solid yellow;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+@media only screen and (max-width: 760px) {
+  #nav {
+    background-color: black !important;
+  }
+}
+
+/************text over Img**************/
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+
+#intro {
+  background: url("../media/daniel-apodaca-WdoQio6HPVA-unsplash.jpg"), no-repeat center center fixed;
+  background-size: cover;
+}
+
+.textCont {
+  top: 50%;
+}
+
+.MainText {
+  color: yellow;
+}
+
+.btn-outline-light:hover {
+  background-color: yellow;
+  outline: none;
+  border: none;
+}
+
+.mb-2, .my-2 {
+  margin-bottom: 0.5rem !important;
+  margin-top: 60%;
+}
+
+/***************Sidetext**************/
+.sideText1 {
+  padding: 100px 0 0 0;
+}
+
+.sideText1 img {
+  height: 80%;
+}
+
+.sideText1 i span {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 760px) {
+  .sideText1 {
+    padding: 100px 0 200px 0;
+  }
+  .sideText1 img {
+    height: 70%;
+    width: 100%;
+  }
+  .sideText1 i {
+    font-size: 30px;
+  }
+  .sideText1 i span {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+}
+
+.sideText1 p {
+  font-size: 18px;
+  text-align: left;
+}
+
+.sideText1 i {
+  margin: 10px;
+  background-color: yellow;
+  background-size: cover;
+  border-radius: 10px;
+  border: 5px solid yellow;
+}
+
+/************service*****************/
+.contentTextCont {
+  margin: 0px 0;
+}
+
+.serviceDiv {
+  background-image: url(../media/pexels-li-sun-2294361.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.serviceDiv h3 {
+  margin-top: 30px;
+  width: 30px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.serviceTable {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.serviceTable i:hover {
+  color: yellow;
+}
+
+/***************program*********/
+.btn-primary {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+  color: #fff;
+}
+
+.cardCont {
+  margin: 60px 0;
+  padding: 10px;
+  background-color: black;
+}
+
+.cardCont h3 {
+  color: yellow;
+  text-align: center;
+  font-size: 70px;
+}
+
+.card {
+  background-color: yellow;
+  color: black;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/*************Footer*********/
+footer {
+  background-color: black;
+}
+
+footer h5 {
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+  background-color: transparent;
+}
+/*# sourceMappingURL=style1.css.map */
